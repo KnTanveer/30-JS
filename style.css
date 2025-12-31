@@ -1,0 +1,36 @@
+* {
+    font-family: monospace, 'Courier New', Courier;
+}
+
+button {
+    border-radius: 20px;
+    border: 1px solid #c0c0c0;
+    background-color: transparent;
+}
+
+body, section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+section {
+    margin: 40px 20px;
+    padding: 12px;
+    border: 1px solid #c0c0c0;
+}
+
+h1 {
+    margin: 30px 20px;
+}
+
+a {
+    text-decoration: none;
+    color: #53709F;
+}
+
+a:hover {
+    color: #53709F;
+    text-decoration: underline;
+    cursor: pointer;
+}
