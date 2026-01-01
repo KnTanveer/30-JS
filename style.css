@@ -27,10 +27,11 @@ h1 {
 a {
     text-decoration: none;
     color: #53709F;
+    cursor: pointer;
 }
 
 a:hover {
-    color: #53709F;
+    color: #53709fa5;
     text-decoration: underline;
     cursor: pointer;
 }
