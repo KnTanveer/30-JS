@@ -1,0 +1,26 @@
+.clock span {
+    font-size: 32px;
+    position: relative;
+    display: inline-block;
+    text-align: center;
+}
+
+.clock span::after {
+    font-size: 11px;
+    position: absolute;
+    bottom: -18px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+#hrs::after {
+    content: 'HOURS';
+}
+
+#mins::after {
+    content: 'MINS';
+}
+
+#secs::after {
+    content: 'SECS';
+}
