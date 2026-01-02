@@ -1,0 +1,25 @@
+section span {
+    color: #53709f;
+}
+
+textarea {
+    width: 300px;
+    height: 200px;
+    border: 0;
+    outline: 0;
+    padding: 20px;
+    border-radius: 10px;
+    resize: none;
+    margin-bottom: 20px;
+}
+
+select {
+    border-radius: 20px;
+    border: 1px solid #c0c0c0;
+    background-color: transparent;
+    padding: 3px;
+}
+
+button {
+    padding: 6px;
+}
