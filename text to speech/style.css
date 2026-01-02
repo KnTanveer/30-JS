@@ -22,4 +22,5 @@ select {
 
 button {
     padding: 6px;
+    cursor: pointer;
 }
